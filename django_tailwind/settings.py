@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     "tailwind",
     "theme",
     "django_browser_reload",
-    "myapp",
+    "apps.myapp",
 ]
 
 MIDDLEWARE = [
@@ -134,4 +134,5 @@ INTERNAL_IPS = [
     "127.0.0.1",
 ]
 
-NPM_BIN_PATH = r"/usr/local/share/nvm/versions/node/v18.12.1/bin/npm"
+# For linux NPM_BIN_PATH = r"/usr/local/share/nvm/versions/node/v18.12.1/bin/npm"
+NPM_BIN_PATH = r"C:\\Program Files\\nodejs\\npm.cmd"
