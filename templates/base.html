@@ -1,5 +1,4 @@
-{% load static %}
-{% load tailwind_tags %}
+{% load static %} {% load tailwind_tags %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,8 +29,7 @@
 
     {% comment %}
     <script src="https://cdn.tailwindcss.com"></script>
-    {% endcomment %}
-    {% tailwind_css %}
+    {% endcomment %} {% tailwind_css %}
   </head>
   <body>
     <div class="container">{% block main %} {% endblock %}</div>

@@ -68,6 +68,7 @@ module.exports = {
     },
   },
   plugins: [
+    require('tw-elements/dist/plugin'),
     /**
      * '@tailwindcss/forms' is the forms plugin that provides a minimal styling
      * for forms. If you don't like it or have own styling for forms,
